@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B0A49"
+    android:forceDarkAllowed="false"
+    android:soundEffectsEnabled="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_headline"
+        android:layout_width="312dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/text_headline"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColorHint="#FFFFFF"
+        android:textSize="90sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/button_load"
+        android:onClick="load_data"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_new" />
+
+    <Button
+        android:id="@+id/button_new"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/custom_button"
+        android:hint="@string/button_new"
+        android:onClick="new_session"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_load"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/button_load"
+        app:layout_constraintTop_toBottomOf="@+id/text_joke" />
+
+    <ImageView
+        android:id="@+id/image_car"
+        android:layout_width="500dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="325dp"
+        android:contentDescription="@string/car2"
+        android:rotation="-12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car2" />
+
+    <ImageView
+        android:id="@+id/image_timer"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="325dp"
+        android:contentDescription="@string/timer"
+        android:rotation="24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/timer" />
+
+    <ImageView
+        android:id="@+id/image_trackdesc"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/track"
+        android:rotation="-49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/track" />
+
+    <TextView
+        android:id="@+id/text_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/made_by_kancha_v_1_0"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_joke"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/your_affordable_racing_telemetry"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_headline"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

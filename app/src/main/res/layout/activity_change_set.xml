@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeSet"
+    android:background="#1B0A49">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="30dp">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:text="Tyre Temperature"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="100dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Right Front"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [℃]:"
+                android:textColor="#FFFFFF" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Left Front"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [℃]:"
+                android:textColor="#FFFFFF" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar2"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Right Rear"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [℃]:"
+                android:textColor="#FFFFFF" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar3"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Left Rear"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [℃]:"
+                android:textColor="#FFFFFF" />
+
+            <SeekBar
+                android:id="@+id/seekBar4"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:layout_marginTop="50dp"
+            android:text="Tyre Pressure"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Right Front"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [psi]:"
+                android:textColor="#FFFFFF" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar5"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Left Front"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [psi]:"
+                android:textColor="#FFFFFF" />
+
+            <SeekBar
+                android:id="@+id/seekBar6"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView460"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Right Rear"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [psi]:"
+                android:textColor="#FFFFFF" />
+
+            <SeekBar
+                android:id="@+id/seekBar7"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="Left Rear"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Select value [psi]:"
+                android:textColor="#FFFFFF" />
+
+            <SeekBar
+                android:id="@+id/seekBar8"
+                android:layout_width="400px"
+                android:layout_height="20dp"
+                android:max="70"
+                android:min="20"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_gradient"
+                android:splitTrack="false" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Apply measurements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_button"
+        android:onClick="Load"
+        android:text="Go to see the data"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">BeFast</string>
+    <string name="button_new">NEW SESSION</string>
+    <string name="button_load">LOAD DATA</string>
+    <string name="text_headline">BeFAST</string>
+    <string name="car">car</string>
+    <string name="car2">car</string>
+    <string name="text_version">Made by Kancha v.1.0</string>
+    <string name="todo">TODO</string>
+    <string name="timer">TODO</string>
+    <string name="track">TODO</string>
+    <string name="made_by_kancha_v_1_0">Made by Kancha v.1.0</string>
+    <string name="title_activity_load">Load</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_car_settings">Car_settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_carsettings">Carsettings</string>
+    <string name="enter_the_car_s_toe_angle_deg">Choose the settings of your car</string>
+    <string name="your_affordable_racing_telemetry">Your affordable racing telemetry</string>
+    <string name="select_the_race_track">Select the race track</string>
+    <string name="go_to_car_settings">Go to car settings</string>
+    <string name="trackdesc">TODO</string>
+    <string name="add_new_track">Add new track</string>
+    <string name="rl">RL</string>
+    <string name="rr">RR</string>
+    <string name="fl">FL</string>
+    <string name="fr">FR</string>
+    <string name="skip_settings">START SESSION</string>
+    <string name="pic">TODO</string>
+    <string name="nextset">Next</string>
+    <string name="end_session">END SESSION</string>
+    <string name="drive_to_the_start_line">PUSH!!</string>
+    <string name="_00_00_00">00:00.00</string>
+    <string name="_00_00_002">00:00.00</string>
+    <string name="delta">0.00</string>
+    <string name="lap">Lap:</string>
+    <string name="lapnr">0</string>
+    <string name="toe">Toe</string>
+    <string name="camber">Camber</string>
+    <string name="tyre_press">Tyre press</string>
+    <string name="go_to_the_first_start_point">Go to the first start point</string>
+    <string name="next_step">Next Step</string>
+    <string name="go">GO!</string>
+    <string name="ready">Ready?</string>
+    <string name="_52_24_46_12_075">52 24 46.12.075</string>
+    <string name="n">N :</string>
+    <string name="e">E :</string>
+    <string name="_16_56_57_116">16 56 57.116</string>
+    <string name="coordinates_of_the_first_point">Coordinates of the first point</string>
+    <string name="accuracy">Accuracy :</string>
+
+    <string-array name="tracks">
+        <item>Tor Poznań</item>
+        <item>Autodrom Jastrząb</item>
+        <item>Tor Koszalin</item>
+        <item>Autodrom Słomczyn</item>
+        <item>Tor Pszczółki</item>
+        <item>Tor Bednary</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_change_set">ChangeSet</string>
+
+</resources>
